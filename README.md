@@ -4,7 +4,7 @@ Welcome to the feature selection project which concerns of Selection
 in a large data set consisting of one or more than one features which are either redundant or irrelevant
 and thus can be removed without incurring much loss of information.
 
-What we have learnt so far 
+## What we have learnt so far 
 
 * What is Feature Selection
 * Why Feature Selection
@@ -12,7 +12,7 @@ What we have learnt so far
 * Multivariate Feature Selection
 
 
-What we will learn by solving this assignment
+## What we will learn by solving this assignment?
 
 * How are the features important to our model.
 * How to select the most significant features out of many.
