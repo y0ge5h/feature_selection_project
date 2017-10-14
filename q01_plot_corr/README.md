@@ -12,7 +12,7 @@ and gives us the idea which variables would have significant impact on target va
 | Parameter | dtype | argument type | default value | description |
 | --- | --- | --- | --- | --- | 
 | df | DataFrame | compulsory |  | Input DataFrame |
-| size| Integer | compulsory |  | Input size of the graph  |
+| size| Integer | optional | 11 | Input size of the graph  |
 
 
 ### Returns:
