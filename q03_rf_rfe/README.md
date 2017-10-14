@@ -5,7 +5,7 @@ Hence, the elimination of features in order to get most significant features can
 and help you decide which features are irrelevant and hence can be eliminated. 
 
 ## Write a function `rf_rfe` that:
-- Uses RandomForest RFE to eliminate one or more than one features.
+- Uses RandomForest RFE to give out most significant features which are retained.
 
 
 ### Parameters:
