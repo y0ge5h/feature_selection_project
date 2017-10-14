@@ -1,8 +1,10 @@
 # Building a forward selection from scratch
-* As there is no package for forward selection we will gonna build it by own
-* for this we have used import statsmodels.formula.api as smf package to predict.
+You should be exicted as ,
+In this assignment we are going to build and improvise the forward selection technique from scratch.
+Forward Selection chooses a subset of the predictor variables for the final model.Forward selection is a very attractive approach, because it's both tractable and it gives a good sequence of models.
 
-## Write a function
+## Write a function `forward_selected` that :
+- Performs forward selection technique and selects the best subest of predictor variables for your model.
 
 ### Parameters:
 
@@ -17,3 +19,5 @@
 | Return | dtype | description |
 | --- | --- | --- | 
 |model ||an "optimal" fitted statsmodels linear model with an intercept selected by forward selection evaluated by adjusted R-squared|
+
+Hint : Use import statsmodels.formula.api as smf package to predict.
