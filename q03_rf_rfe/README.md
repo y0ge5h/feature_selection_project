@@ -21,4 +21,4 @@ and help you decide which features are irrelevant and hence can be eliminated.
 
 | Return | dtype | description |
 | --- | --- | --- | 
-|list |List|List of variables which are eliminated|
+|list |List|List of variables which are retained|
