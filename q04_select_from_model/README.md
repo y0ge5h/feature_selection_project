@@ -21,4 +21,4 @@ feature selection
 
 | Return | dtype | description |
 | --- | --- | --- | 
-|list |List|List of variables which are eliminated|
+|list |List|List of variables which are retained|
