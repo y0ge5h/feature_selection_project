@@ -4,8 +4,7 @@ Correlation gives us the idea about how the are the features related to the targ
 and gives us the idea which variables would have significant impact on target variable.
 
 ## Write a function `plot_corr` that:
-- Should return plots of numeric variables.
-- As we require plot, the function does not return anything
+- Plots correlation measure of numeric variables.
 
 
 ### Parameters:
