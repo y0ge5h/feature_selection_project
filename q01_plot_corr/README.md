@@ -5,7 +5,7 @@ and gives us the idea which variables would have significant impact on target va
 
 ## Write a function `plot_corr` that:
 - Should return plots of numeric variables.
-- As we require plot, type of return variable should be matplotlib object.
+- As we require plot, the function does not return anything
 
 
 ### Parameters:
@@ -18,4 +18,4 @@ and gives us the idea which variables would have significant impact on target va
 
 ### Returns:
 
-Correlation plot for all numeric variables.
+None
