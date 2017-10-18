@@ -11,7 +11,7 @@ class TestPlot_corr(TestCase):
         # Input parameters tests
         args = getargspec(plot_corr)
         self.assertEqual(len(args[0]), 2, "Expected arguments %d, Given %d" % (2, len(args[0])))
-        self.assertEqual(args[3], 11, "Expected default values do not match given default values")
+        self.assertEqual(args[3], (11,), "Expected default values do not match given default values")
 
         # Return type tests
         # Nothing to check here
