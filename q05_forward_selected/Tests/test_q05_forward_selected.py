@@ -3,6 +3,8 @@ from ..build import forward_selected
 from inspect import getargspec
 import pandas as pd
 data = pd.read_csv('data/house_prices_multivariate.csv')
+data.rename(columns={'1stFlrSf': 'FirstFlrSf', '2ndFlrSf': 'SecondFlrSf', '3SsnPorch': 'ThirdSsnPorch'},
+            inplace=True)
 
 
 class TestForward_selected(TestCase):

@@ -8,4 +8,3 @@ data = pd.read_csv('data/house_prices_multivariate.csv')
 
 
 # Your solution code here
-

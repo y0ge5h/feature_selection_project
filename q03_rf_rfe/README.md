@@ -5,20 +5,21 @@ Hence, the elimination of features in order to get most significant features can
 and help you decide which features are irrelevant and hence can be eliminated. 
 
 ## Write a function `rf_rfe` that:
-- Uses RandomForest RFE to give out most significant features which are retained.
+- Uses `RandomForestClassifier()` as the model to operate upon and fits the model on X,y.
+- Use `rfe.ranking_` to get 1st rank and return their name(use for loop for recursive iteration for all features).
+- Gives out most significant features which are retained.
 
+Note : While using `RFE` method set `n_features_to_select` as half of the total columns or features in X.
 
 ### Parameters:
 
 | Parameter | dtype | argument type | default value | description |
 | --- | --- | --- | --- | --- | 
 | df | DataFrame | compulsory |  | Input DataFrame |
-| predictors| List | compulsory |  | List of predictor variable names|
-| target| string | compulsory |  |  Name of the target variable |
 
 
 ### Returns:
 
 | Return | dtype | description |
 | --- | --- | --- | 
-|list |List|List of variables which are retained|
+|top_features |List|List of variables which are retained|

@@ -1,11 +1,15 @@
 # Use SelectFromModel to eliminate one or more than one features
 
 In this assignment we will try to implement the one of the multivariate methods of
-feature selection 
+feature selection.
 
 ## Write a function `select_from_model` that:
-- Should return a list of features which are retained.
-- The seed should be set as 9.
+- Splits the data into X (features except target variable) and y (SalePrice).
+- Uses `RandomForestClassifier()` as the model to operate upon and fits the model on X,y.
+- Use `get_support()` function to get True/False for each 
+feature and return the name of the feature with values assigned as True.
+
+Note : The seed should be set as 9.
 
 
 ## Parameters:
@@ -13,12 +17,11 @@ feature selection
 | Parameter | dtype | argument type | default value | description |
 | --- | --- | --- | --- | --- | 
 | df | DataFrame | compulsory |  | Input DataFrame |
-| predictors| List | compulsory |  | List of predictor variable names |
-| target| string | compulsory |  |  Name of the target variable|
+
 
 
 #### Returns:
 
 | Return | dtype | description |
 | --- | --- | --- | 
-|list |List|List of variables which are retained|
+|feature_name |List|List of variables which are retained|
