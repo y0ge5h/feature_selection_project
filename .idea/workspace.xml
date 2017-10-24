@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1452849-82a7-4d0b-9409-1b4c91060d5c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q02_best_k_features/README.md" afterPath="$PROJECT_DIR$/q02_best_k_features/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q02_best_k_features/Tests/test_q02_percentile_k_features.py" afterPath="$PROJECT_DIR$/q02_best_k_features/Tests/test_q02_percentile_k_features.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q03_rf_rfe/README.md" afterPath="$PROJECT_DIR$/q03_rf_rfe/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q03_rf_rfe/Tests/test_q03_rf_rfe.py" afterPath="$PROJECT_DIR$/q03_rf_rfe/Tests/test_q03_rf_rfe.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q03_rf_rfe/build.py" afterPath="$PROJECT_DIR$/q03_rf_rfe/build.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q04_select_from_model/README.md" afterPath="$PROJECT_DIR$/q04_select_from_model/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q04_select_from_model/Tests/test_q04_select_from_model.py" afterPath="$PROJECT_DIR$/q04_select_from_model/Tests/test_q04_select_from_model.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q04_select_from_model/build.py" afterPath="$PROJECT_DIR$/q04_select_from_model/build.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/q05_forward_selected/Tests/test_q05_forward_selection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q05_forward_selected/README.md" afterPath="$PROJECT_DIR$/q05_forward_selected/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q05_forward_selected/Tests/test_q05_forward_selected.py" afterPath="$PROJECT_DIR$/q05_forward_selected/Tests/test_q05_forward_selected.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q05_forward_selected/build.py" afterPath="$PROJECT_DIR$/q05_forward_selected/build.py" />
@@ -23,7 +17,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/q05_forward_selected/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="561">
+                <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,11 +68,13 @@
         <option value="$PROJECT_DIR$/q03_rf_rfe/README.md" />
         <option value="$PROJECT_DIR$/q03_rf_rfe/Tests/test_q03_rf_rfe.py" />
         <option value="$PROJECT_DIR$/q04_select_from_model/README.md" />
-        <option value="$PROJECT_DIR$/q05_forward_selected/Tests/test_q05_forward_selected.py" />
-        <option value="$PROJECT_DIR$/q05_forward_selected/README.md" />
         <option value="$PROJECT_DIR$/q02_best_k_features/build.py" />
         <option value="$PROJECT_DIR$/q03_rf_rfe/build.py" />
         <option value="$PROJECT_DIR$/q04_select_from_model/build.py" />
+        <option value="$PROJECT_DIR$/q05_forward_selected/Tests/test_q05_forward_selected.py" />
+        <option value="$PROJECT_DIR$/q05_forward_selected/Tests/test_q05_forward_selection.py" />
+        <option value="$PROJECT_DIR$/q05_forward_selected/tests/test_q05_forward_selected.py" />
+        <option value="$PROJECT_DIR$/q05_forward_selected/README.md" />
         <option value="$PROJECT_DIR$/q05_forward_selected/build.py" />
       </list>
     </option>
@@ -75,7 +85,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1" />
     <option name="y" value="21" />
     <option name="width" value="1368" />
@@ -127,7 +137,7 @@
               <item name="feature_selection_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="feature_selection_project" type="462c0819:PsiDirectoryNode" />
               <item name="q04_select_from_model" type="462c0819:PsiDirectoryNode" />
-              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="feature_selection_project" type="b2602c69:ProjectViewProjectNode" />
@@ -138,19 +148,19 @@
               <item name="feature_selection_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="feature_selection_project" type="462c0819:PsiDirectoryNode" />
               <item name="q05_forward_selected" type="462c0819:PsiDirectoryNode" />
-              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../greyatomlib/greyatomlib/feature_selection" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/q05_forward_selected/Tests" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -179,7 +189,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -188,8 +199,8 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31790122" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26928896" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21604939" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2708018" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -256,9 +267,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#18#37#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -266,7 +274,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -274,7 +281,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -303,7 +309,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="102">
             <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="34" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -314,7 +319,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="187">
             <caret line="11" column="71" lean-forward="false" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -344,7 +348,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -358,14 +361,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/q03_rf_rfe/Tests/test_q03_rf_rfe.py">
+    <entry file="file://$PROJECT_DIR$/q03_rf_rfe/tests/test_q03_rf_rfe.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/q04_select_from_model/Tests/test_q04_select_from_model.py">
+    <entry file="file://$PROJECT_DIR$/q04_select_from_model/tests/test_q04_select_from_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
@@ -399,7 +402,7 @@
     <entry file="file://$PROJECT_DIR$/q05_rf_rfe/Tests/test_q04_rf_rfe.py" />
     <entry file="file://$PROJECT_DIR$/q04_best_k_features/build.py" />
     <entry file="file://$PROJECT_DIR$/q02_multi_power/Tests/test_q02_multi_power.py" />
-    <entry file="file://$PROJECT_DIR$/q02_best_k_features/Tests/test_q02_percentile_k_features.py">
+    <entry file="file://$PROJECT_DIR$/q02_best_k_features/tests/test_q02_percentile_k_features.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
@@ -426,7 +429,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/q02_best_k_features/Tests/test_q02_percentile_k_features.py">
+    <entry file="file://$PROJECT_DIR$/q02_best_k_features/tests/test_q02_percentile_k_features.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
@@ -436,29 +439,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/q04_select_from_model/Tests/test_q04_select_from_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/q03_rf_rfe/Tests/test_q03_rf_rfe.py">
+    <entry file="file://$PROJECT_DIR$/q03_rf_rfe/tests/test_q03_rf_rfe.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/q05_forward_selected/Tests/test_q05_forward_selected.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -467,7 +452,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="330">
             <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -478,7 +462,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="238">
             <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -488,18 +471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/q05_forward_selected/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="442">
-            <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -508,7 +479,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="153">
             <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -518,7 +488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -527,19 +496,31 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="204">
             <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/q05_forward_selected/build.py">
+    <entry file="file://$PROJECT_DIR$/q03_rf_rfe/build.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#18#37#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q05_forward_selected/tests/test_q05_forward_selection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q04_select_from_model/tests/test_q04_select_from_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -551,11 +532,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/q03_rf_rfe/build.py">
+    <entry file="file://$PROJECT_DIR$/q05_forward_selected/tests/test_q05_forward_selected.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="256">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q05_forward_selected/build.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="e#18#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q05_forward_selected/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="561">
+            <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

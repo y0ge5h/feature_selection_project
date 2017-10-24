@@ -1,11 +1,13 @@
 # Default imports
 import pandas as pd
-import statsmodels.formula.api as smf
+from sklearn.linear_model import LinearRegression
 
 data = pd.read_csv('data/house_prices_multivariate.csv')
-data.rename(columns={'1stFlrSf': 'FirstFlrSf', '2ndFlrSf': 'SecondFlrSf', '3SsnPorch': 'ThirdSsnPorch'},
-            inplace=True)
+
+model = LinearRegression()
 
 
 # Your solution code here
+
+
 
