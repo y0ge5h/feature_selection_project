@@ -3,6 +3,7 @@ from ..build import forward_selected
 from inspect import getargspec
 from sklearn.linear_model import LinearRegression
 import pandas as pd
+import numpy as np
 
 data = pd.read_csv('data/house_prices_multivariate.csv')
 model = LinearRegression()
@@ -35,5 +36,5 @@ class TestForward_selected(TestCase):
                         0.77146549956264021, 0.77743942439428682, 0.78190516290253775,
                         0.78559309845190683, 0.78926329832950681, 0.79084962683577575]
         top_acc = best_score[0:10]
-        self.assertItemsEqual(top_10, expected_var, "Expected values does not match returned value")
-        self.assertAlmostEqual(top_acc, expected_acc, 3, "Expected values does not match returned value")
+        self.assertListEqual(top_10, expected_var, "Expected values does not match returned value")
+        self.assertAlmostEqual(np.array(top_acc).all(), np.array(expected_acc).all(), 3, "Expected values does not match returned value")
