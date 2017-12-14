@@ -9,5 +9,3 @@ model = LinearRegression()
 
 # Your solution code here
 
-
-
