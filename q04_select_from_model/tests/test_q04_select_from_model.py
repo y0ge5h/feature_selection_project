@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from unittest import TestCase
 from ..build import select_from_model
-from inspect import getargspec
+from inspect import getfullargspec
 
 data = pd.read_csv('data/house_prices_multivariate.csv')
 np.random.seed(9)
@@ -15,10 +15,10 @@ class TestSelect_from_model(TestCase):
     def test_select_from_model_arguments(self):
 
         # Input parameters tests
-        args = getargspec(select_from_model)
+        args = getfullargspec(select_from_model)
         self.assertEqual(len(args[0]), 1, "Expected arguments %d, Given %d" % (1, len(args[0])))
     def test_select_from_model_defaults(self):
-        args = getargspec(select_from_model)
+        args = getfullargspec(select_from_model)
         self.assertEqual(args[3], None, "Expected default values do not match given default values")
 
         # Return data types
@@ -29,5 +29,5 @@ class TestSelect_from_model(TestCase):
 
         # Return values tests
     def test_select_from_model_return_values(self):
-        self.assertItemsEqual(selected_variables, expected, "Expected list of variables does not match returned list "
+        self.assertEqual(selected_variables, expected, "Expected list of variables does not match returned list "
                                                             "of variables")
